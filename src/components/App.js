@@ -8,9 +8,11 @@ class App extends Component {
     render() {
         return (
             <div className="container">
-                <h1>Books N Roses: Appetite for Instruction</h1>
-                <BookList/>
-                <BookDetail/>
+                <h1 className="my-4">Books N Roses: Appetite for Instruction</h1>
+                <div className="d-flex">
+                  <BookList/>
+                  <BookDetail/>
+                </div>
             </div>
         );
     }
