@@ -7,7 +7,7 @@ import BookDetail from '../containers/BookDetail';
 class App extends Component {
     render() {
         return (
-            <div className="row">
+            <div className="container">
                 <h1>Books N Roses: Appetite for Instruction</h1>
                 <BookList/>
                 <BookDetail/>
